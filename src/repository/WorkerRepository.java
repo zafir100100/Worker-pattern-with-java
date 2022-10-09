@@ -10,6 +10,11 @@ import model.Worker;
 public class WorkerRepository
 {
 
+    public WorkerRepository()
+    {
+
+    }
+
     private final int workerSerial = 1;
 
     public List<Worker> getWorkers()
